@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'AlgerianD';
+    src: url("AlgerianD.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: FBD, sans-serif;
+}
+@font-face {
+    font-family: 'FBD';
+    src: url("FBD.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+#header-nav {
+    background-color: black;
+    height: 100px;
+    font-family: AlgerianD,sans-serif;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-brand h1 {
+    color: #1970da;
+    font-size: 2.2em;
+}
+
+#description {
+    margin-top: 2.5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 1.5em;
+}
+
+#title {
+    margin-top: 7%;
+    font-weight: bold;
+    color: red;
+    font-size: 3em;
+}
+
+#proceed {
+    margin-top: 5%;
+    width: 30%;
+    font-size: 2em;
+    background-color: #2aabd2;
+}
+
+#proceed:hover {
+    background-color: greenyellow;
+}
+
+.col-xs-12 {
+    background-color: #2aabd2;
+    margin-top: 1%;
+    border-radius: 10%;
+    font-size: 2em;
+}
+
+#number {
+    margin-top: 3%;
+    font-weight: bold;
+    color: red;
+    font-size: 3em;
+}
+
+.answer:hover {
+    background-color: greenyellow;
+    border-color: transparent;
+}
+
+.answer:focus {
+    background-color: #00ef12;
+    outline: none;
+}
+
+.question {
+    background-color: #9007c1;
+    margin-bottom: 2%;
+    height: 60px;
+    line-height: 60px;
+}
+
+.answer {
+    border: none;
+}
+
+#next {
+    margin-top: 2%;
+    width: 30%;
+    font-size: 2em;
+    background-color: dodgerblue;
+    border-radius: 10%;
+}
+
+#next:hover {
+    background-color: greenyellow;
+}
+
+#next:focus {
+    background-color: #00ef12;
+}
+
+@media (max-width: 767px) {
+    .col-xs-12 {
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+    #title {
+        margin-top: 15%;
+    }
+
+    .question {
+        background-color: #9007c1;
+        margin-bottom: 3%;
+    }
+
+    #next {
+        margin-top: 4%;
+    }
+
+    #number {
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 479px) {
+    .navbar-brand h1 {
+        font-size: 1.6em;
+    }
+
+    #proceed {
+        font-size: 1.3em;
+    }
+
+    #description {
+        font-size: 1.3em;
+    }
+
+    #title {
+        font-size: 2.3em;
+    }
+
+
+}
+
+@media (max-width: 556px) {
+    .col-xs-12 {
+        font-size: 1.2em;
+    }
+
+    #number {
+        font-size: 2.5em;
+    }
+    #next{
+        font-size: 1.4em;
+    }
+
+}
+
