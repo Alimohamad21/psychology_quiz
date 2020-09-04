@@ -103,10 +103,12 @@ body {
     border-radius: 10%;
     margin-bottom: 10%;
 }
-
-#next:hover {
-    background-color: greenyellow;
+@media (min-width:767px) {
+    #next:hover {
+        background-color: greenyellow;
+    }
 }
+
 
 #next:active {
     background-color: #00ef12;

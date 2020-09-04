@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 document.querySelector(".question").textContent = getQuestion();
                 for (var i = 0; i < answers.length; i++)
                     answers[i].selected = false;
+                this.blur();
             } else {alert("Please select an Answer!");console.log("error");}
 
         }
