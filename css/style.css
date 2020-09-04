@@ -42,6 +42,7 @@ body{
 
 #proceed {
     margin-top: 5%;
+    margin-bottom:10%;
     width: 30%;
     font-size: 2em;
     background-color: #2aabd2;
@@ -49,6 +50,9 @@ body{
 
 #proceed:hover {
     background-color: greenyellow;
+}
+#proceed:focus {
+    outline: none;
 }
 
 .col-xs-12 {
@@ -80,6 +84,7 @@ body{
     margin-bottom: 2%;
     height: 60px;
     line-height: 60px;
+    color: whitesmoke;
 }
 
 .answer {
@@ -87,19 +92,22 @@ body{
 }
 
 #next {
-    margin-top: 2%;
+    margin-top: 4%;
     width: 30%;
     font-size: 2em;
     background-color: dodgerblue;
     border-radius: 10%;
+    margin-bottom:10%;
 }
 
 #next:hover {
     background-color: greenyellow;
 }
+#next:active{
+background-color: #00ef12;}
 
-#next:focus {
-    background-color: #00ef12;
+#next:active,#next:focus{
+    outline: none;
 }
 
 @media (max-width: 767px) {
@@ -112,6 +120,8 @@ body{
 
     #title {
         margin-top: 15%;
+        margin-left: 10%;
+        margin-right:10%;
     }
 
     .question {
@@ -128,36 +138,42 @@ body{
     }
 }
 
-@media (max-width: 479px) {
-    .navbar-brand h1 {
-        font-size: 1.6em;
-    }
 
-    #proceed {
-        font-size: 1.3em;
-    }
-
-    #description {
-        font-size: 1.3em;
-    }
-
-    #title {
-        font-size: 2.3em;
-    }
-
-
-}
 
 @media (max-width: 556px) {
-    .col-xs-12 {
-        font-size: 1.2em;
+    .col-xs-12 {        font-size: 1.5em;
+        height: 50px;
+        line-height: 50px;
     }
 
     #number {
         font-size: 2.5em;
     }
     #next{
-        font-size: 1.4em;
+        width:40%;
+        margin-top:7%;
+        font-size: 1.5em;
+    }
+    .question{
+        line-height: 75px;
+        height: 75px;
+    }
+    #proceed {
+        font-size: 1.7em;
+        width:50%;
+    }
+}
+@media (max-width: 479px) {
+    .navbar-brand h1 {
+        font-size: 1.9em;
+    }
+
+    #description {
+        font-size: 1.5em;
+    }
+
+    #title {
+        font-size: 2.3em;
     }
 
 }
