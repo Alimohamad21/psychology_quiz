@@ -4,19 +4,22 @@
     font-weight: normal;
     font-style: normal;
 }
-body{
+
+body {
     font-family: FBD, sans-serif;
 }
+
 @font-face {
     font-family: 'FBD';
     src: url("FBD.ttf");
     font-weight: normal;
     font-style: normal;
 }
+
 #header-nav {
     background-color: black;
     height: 100px;
-    font-family: AlgerianD,sans-serif;
+    font-family: AlgerianD, sans-serif;
     border: none;
     border-radius: 0;
 }
@@ -42,7 +45,7 @@ body{
 
 #proceed {
     margin-top: 5%;
-    margin-bottom:10%;
+    margin-bottom: 10%;
     width: 30%;
     font-size: 2em;
     background-color: #2aabd2;
@@ -51,6 +54,7 @@ body{
 #proceed:hover {
     background-color: greenyellow;
 }
+
 #proceed:focus {
     outline: none;
 }
@@ -97,16 +101,18 @@ body{
     font-size: 2em;
     background-color: dodgerblue;
     border-radius: 10%;
-    margin-bottom:10%;
+    margin-bottom: 10%;
 }
 
 #next:hover {
     background-color: greenyellow;
 }
-#next:active{
-background-color: #00ef12;}
 
-#next:active,#next:focus{
+#next:active {
+    background-color: #00ef12;
+}
+
+#next:active, #next:focus {
     outline: none;
 }
 
@@ -119,9 +125,9 @@ background-color: #00ef12;}
     }
 
     #title {
-        margin-top: 15%;
         margin-left: 10%;
-        margin-right:10%;
+        margin-right: 10%;
+        margin-top:10%;
     }
 
     .question {
@@ -139,9 +145,13 @@ background-color: #00ef12;}
 }
 
 
-
 @media (max-width: 556px) {
-    .col-xs-12 {        font-size: 1.5em;
+    #title {
+        margin-top: 12%;
+    }
+
+    .col-xs-12 {
+        font-size: 1.5em;
         height: 50px;
         line-height: 50px;
     }
@@ -149,20 +159,24 @@ background-color: #00ef12;}
     #number {
         font-size: 2.5em;
     }
-    #next{
-        width:40%;
-        margin-top:7%;
+
+    #next {
+        width: 40%;
+        margin-top: 7%;
         font-size: 1.5em;
     }
-    .question{
+
+    .question {
         line-height: 75px;
         height: 75px;
     }
+
     #proceed {
         font-size: 1.7em;
-        width:50%;
+        width: 50%;
     }
 }
+
 @media (max-width: 479px) {
     .navbar-brand h1 {
         font-size: 1.9em;
@@ -173,7 +187,7 @@ background-color: #00ef12;}
     }
 
     #title {
-        font-size: 2.3em;
+        font-size: 2.8em;
     }
 
 }
